@@ -1,6 +1,7 @@
 import { Space_Mono } from "next/font/google";
 import type { Metadata } from "next";
 import "./globals.css";
+import Navbar from "@/components/custom/Navbar/Navbar";
 
 export const metadata: Metadata = {
     title: "Create Next App",
@@ -16,7 +17,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={spaceMono.className}>{children}</body>
+            <body className={spaceMono.className}>
+                <Navbar />
+                {children}
+            </body>
         </html>
     );
 }

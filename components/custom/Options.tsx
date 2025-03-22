@@ -4,11 +4,13 @@ import Link from "next/link";
 
 const Options = () => {
     return (
-        <div>
-            <Button variant="outline">Project tracker</Button>
-            <Link href="/todos">
-                <Button variant="outline">Todo tracker</Button>
-            </Link>
+        <div className="mx-10">
+            <div className="flex gap-5">
+                <Button className="py-8 text-lg">Project tracker</Button>
+                <Link href="/todos">
+                    <Button className="py-8 text-lg">Todo tracker</Button>
+                </Link>
+            </div>
         </div>
     );
 };
