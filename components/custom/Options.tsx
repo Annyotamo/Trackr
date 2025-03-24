@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Options = () => {
     return (
-        <div className="mx-10">
+        <div className="mx-8">
             <div className="flex gap-5">
                 <Button className="py-8 text-lg">Project tracker</Button>
                 <Link href="/todos">

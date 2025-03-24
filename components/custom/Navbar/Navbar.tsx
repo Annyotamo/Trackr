@@ -31,12 +31,11 @@ const Navbar = () => {
                         <Settings2 size={35} />
                     </DropdownMenuTrigger>
                     <DropdownMenuContent className="mr-10 mt-2 p-5 ">
-                        <DropdownMenuLabel className="text-md">Options</DropdownMenuLabel>
+                        <DropdownMenuLabel className="text-md font-bold">Options</DropdownMenuLabel>
                         <DropdownMenuSeparator />
-                        <DropdownMenuItem className="mt-2 p-2 text-md">Profile</DropdownMenuItem>
-                        <DropdownMenuItem className="mt-2 p-2 text-md">Billing</DropdownMenuItem>
-                        <DropdownMenuItem className="mt-2 p-2 text-md">Team</DropdownMenuItem>
-                        <DropdownMenuItem className="mt-2 p-2 text-md">Subscription</DropdownMenuItem>
+                        <DropdownMenuItem className="mt-2 p-2 text-md">Sign in</DropdownMenuItem>
+                        <DropdownMenuItem className="mt-2 p-2 text-md">Sign up</DropdownMenuItem>
+                        <DropdownMenuItem className="mt-2 p-2 text-md">Groups</DropdownMenuItem>
                     </DropdownMenuContent>
                 </DropdownMenu>
             </div>
