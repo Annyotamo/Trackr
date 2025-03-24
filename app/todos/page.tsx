@@ -6,13 +6,13 @@ const todos = () => {
     return (
         <div className="mx-8">
             <h1 className="text-4xl">Todo tracker</h1>
-            <h2 className="text-xl mb-10 text-gray-400">A simple way to add and manage your todos</h2>
+            <h2 className="text-xl mb-10 text-gray-400 border-b pb-2">A simple way to add and manage your todos</h2>
             <div className="flex flex-col md:flex-row gap-10 justify-center">
-                <div className="border rounded-xl p-8 text-center">
+                <div className="shadow-lg rounded-xl p-8 text-center">
                     <h3 className="text-2xl mb-4">Create a todo</h3>
                     <AddTodo />
                 </div>
-                <div className="border rounded-xl p-8 text-center">
+                <div className="shadow-lg rounded-xl p-8 text-center">
                     <h3 className="text-2xl mb-4">Groups</h3>
                     <div className="flex gap-5">
                         <Button className="md:py-8 text-lg">+ Add</Button>
